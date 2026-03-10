@@ -31,7 +31,7 @@ Các công cụ được sử dụng trong lab:
 
 ---
 
-# 5. Kết quả đầu ra
+# 4. Kết quả đầu ra
 
 Sau khi thực hiện các bước trên:
 
@@ -44,7 +44,7 @@ Sau khi thực hiện các bước trên:
 
 ---
 
-# 7. Giải thích phần chính đã thực hiện
+# 5. Giải thích phần chính đã thực hiện
 
 Trong bài lab này, sử dụng MongoDB để thực hiện các thao tác CRUD cơ bản.
 * **InsertMany** được dùng để thêm nhiều document vào collection.
