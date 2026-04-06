@@ -18,6 +18,7 @@
 |------ |----------|
 | Lab 1 | MongoDB CRUD Operation |
 | Lab 2 | Thiết lập Backend với NodeJS và ExpressJS |
+| Lab 3 | Hoàn thiện Backend cho ứng dụng minh họa |
 
 ---
 
@@ -56,6 +57,23 @@ Các nội dung chính thực hiện trong lab:
 
 ---
 
+## Lab 3: Hoàn thiện Backend cho ứng dụng minh họa
+
+Lab 3 tiếp tục phát triển backend cho ứng dụng **Movie Reviews**.
+
+Các nội dung chính thực hiện:
+
+* Xây dựng API thêm review cho movie
+* Xây dựng API cập nhật review
+* Xây dựng API xóa review
+* Xây dựng API lấy thông tin và review movie dựa trên ID
+* Xây dựng API lấy danh cách các rating
+* Tạo Controller để xử lý request từ client
+* Tạo DAO để thao tác dữ liệu với MongoDB
+* Kiểm tra API bằng Postman
+
+--- 
+
 # 5. Cách chạy chương trình
 
 ## Lab 1
@@ -73,6 +91,14 @@ Các nội dung chính thực hiện trong lab:
 3. Tạo file môi trường `.env` và cấu hình chuỗi kết nối MongoDB
 4. Chạy server
 5. Kiểm tra API bằng trình duyệt hoặc Postman
+
+---
+
+## Lab 3
+1. Sử dụng các tài nguyên có sẵn đã có ở lab2
+2. Thêm các file theo yêu cầu
+3. Chạy server
+4. Kiểm tra API bằng Postman
 
 ---
 
@@ -101,6 +127,16 @@ Sau khi thực hiện lab:
 
 ---
 
+## Lab 3
+Sau khi thực hiện lab:
+
+* Backend server chạy thành công bằng **NodeJS + ExpressJS**
+* Backend kết nối được với **MongoDB Atlas**
+* API `/api/v1/movies/review` hoạt động
+* Có thể thêm review, cập nhật review, xóa review, lấy movie theo id, lấy danh sách rating
+
+---
+
 # 7. Hình ảnh minh họa
 Các hình ảnh minh họa được lưu trong thư mục **images** trong từng thư mục Lab tương ứng.
 
@@ -110,12 +146,12 @@ Các hình ảnh minh họa được lưu trong thư mục **images** trong từ
 
 * Lab 1 - MongoDB CRUD Operation
 * Lab 2 - Thiết lập Backend với NodeJS và ExpressJS
+* Lab 3 - Hoàn thiện Backend cho ứng dụng minh họa
 
 ---
 
 # 9. Nội dung chưa hoàn thành
 
-* Lab 3
 * Lab 4
 * Lab 5
 * Lab 6
