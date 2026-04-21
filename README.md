@@ -19,6 +19,7 @@
 | Lab 1 | MongoDB CRUD Operation |
 | Lab 2 | Thiết lập Backend với NodeJS và ExpressJS |
 | Lab 3 | Hoàn thiện Backend cho ứng dụng minh họa |
+| Lab 4 | Thiết lập Frontend với ReactJS |
 
 ---
 
@@ -72,6 +73,27 @@ Các nội dung chính thực hiện:
 * Tạo DAO để thao tác dữ liệu với MongoDB
 * Kiểm tra API bằng Postman
 
+## Lab 4: Thiết lập Frontend với ReactJS
+
+Lab 4 tập trung xây dựng **frontend cho ứng dụng Movie Reviews** bằng **ReactJS**.
+
+Các nội dung chính thực hiện:
+
+* Khởi tạo project React bằng **Create React App**
+* Cài đặt các thư viện hỗ trợ:
+  - **Bootstrap**
+  - **React Router DOM**
+* Xây dựng **Navigation Header** cho ứng dụng
+* Tạo các component giao diện:
+  - MoviesList
+  - Movie
+  - AddReview
+  - Login
+* Thiết lập **React Router** để định tuyến giữa các trang
+* Sử dụng **React Hook (useState)** để quản lý trạng thái đăng nhập của người dùng
+
+Frontend được thiết kế để kết nối với backend API đã xây dựng ở **Lab 2 và Lab 3**.
+
 --- 
 
 # 5. Cách chạy chương trình
@@ -99,6 +121,14 @@ Các nội dung chính thực hiện:
 2. Thêm các file theo yêu cầu
 3. Chạy server
 4. Kiểm tra API bằng Postman
+
+---
+
+## Lab 4
+1. Di chuyển vào thư mục `frontend`
+2. Cài đặt các thư viện cần thiết: `npm install`
+3. Chạy ứng dụng React: `npm start`
+4. Mở trình duyệt tại: `http://localhost:3000`
 
 ---
 
@@ -137,6 +167,17 @@ Sau khi thực hiện lab:
 
 ---
 
+## Lab 4
+Sau khi thực hiện lab:
+
+* Frontend React được khởi tạo thành công
+* Navigation bar hoạt động
+* Các component giao diện được tạo
+* React Router định tuyến giữa các trang
+* Trạng thái đăng nhập được quản lý bằng React Hook
+
+---
+
 # 7. Hình ảnh minh họa
 Các hình ảnh minh họa được lưu trong thư mục **images** trong từng thư mục Lab tương ứng.
 
@@ -147,11 +188,11 @@ Các hình ảnh minh họa được lưu trong thư mục **images** trong từ
 * Lab 1 - MongoDB CRUD Operation
 * Lab 2 - Thiết lập Backend với NodeJS và ExpressJS
 * Lab 3 - Hoàn thiện Backend cho ứng dụng minh họa
+* Lab 4 - Frontend ReactJS
 
 ---
 
 # 9. Nội dung chưa hoàn thành
 
-* Lab 4
 * Lab 5
 * Lab 6
